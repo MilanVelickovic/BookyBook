@@ -1,0 +1,13 @@
+.Link {
+    padding: 2% 4%;
+    color: #33475B;
+    background-color: #FFF;
+}
+
+.highlight {
+    color: #FFF;
+    background-color: #33475B;
+    text-transform: uppercase;
+    border: 0px solid #33475B;
+    border-radius: 10px;
+}

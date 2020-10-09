@@ -1,0 +1,14 @@
+.Message {
+    color: #FFF;
+    text-align: center;
+}
+
+.bigText {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.smallText {
+    font-size: 1.2rem;
+}

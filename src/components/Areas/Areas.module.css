@@ -1,0 +1,17 @@
+.areasHeading {
+    max-width: 100%;
+    margin: 0;
+    padding: 5% 0% 2% 6%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Areas {
+    max-width: 100%;
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
