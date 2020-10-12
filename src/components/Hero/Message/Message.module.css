@@ -11,4 +11,17 @@
 
 .smallText {
     font-size: 1.2rem;
+    display: block;
+}
+
+@media(max-width: 400px) {
+    .Message {
+        color: #000;
+    }
+    .bigText {
+        font-size: 2.2rem;
+    }
+    .smallText {
+        display: none;
+    }
 }

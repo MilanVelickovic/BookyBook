@@ -8,8 +8,25 @@
 }
 
 .Footer .part {
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+@media(max-width: 400px) {
+    .Footer {
+        height: 13vh;
+        padding: 5%;
+    }
+    .Footer .part:nth-child(2) {
+        margin: 5% 0%;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .Footer .part p {
+        margin: 0;
+    }
 }

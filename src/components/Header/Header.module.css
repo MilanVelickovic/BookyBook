@@ -1,9 +1,21 @@
 .Header {
     max-width: 100%;
     height: 10vh;
+    margin: 0;
     padding: 0% 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+
+
+@media(max-width: 400px) {
+    .Header {
+        padding: 0% 5%;
+    }
+    .burgerIcon {
+        display: block;
+    }
 }

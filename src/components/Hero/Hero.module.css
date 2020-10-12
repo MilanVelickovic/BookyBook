@@ -10,3 +10,13 @@
     justify-content: center;
     align-items: center;
 }
+
+@media(max-width: 400px) {
+    .Hero {
+        padding: 0% 5%;
+        height: auto;
+        margin: auto;
+        background-image: none;
+        align-items: flex-start;     
+    }
+}

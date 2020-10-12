@@ -35,3 +35,10 @@
     justify-content: center;
     align-items: center;
 }
+
+@media(max-width: 400px) {
+    .Area {
+        height: 100px;
+        overflow: hidden;
+    }   
+}

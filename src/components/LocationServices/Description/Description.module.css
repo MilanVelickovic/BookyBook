@@ -18,3 +18,18 @@
     border: 0px solid #FFF;
     border-radius: 10px;
 }
+
+@media(max-width: 400px) {
+    .Description {
+        width: 100%;
+    }
+    .Description h1{
+        font-size: 1.6rem;
+    }
+    .Description button {
+        width: 100%;
+        padding: 3% 0%;
+        font-weight: bold;
+        border-radius: 6px;
+    }
+}
