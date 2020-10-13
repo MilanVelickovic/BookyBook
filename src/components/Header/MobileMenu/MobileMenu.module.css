@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-@media(min-width: 401px) {
+@media(min-width: 416px) {
     .MobileMenu {
         display: none;
     }

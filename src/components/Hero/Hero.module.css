@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 415px) {
     .Hero {
         padding: 0% 5%;
         height: auto;

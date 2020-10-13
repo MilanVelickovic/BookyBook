@@ -36,7 +36,7 @@
     align-items: center;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 415px) {
     .Area {
         height: 100px;
         overflow: hidden;
