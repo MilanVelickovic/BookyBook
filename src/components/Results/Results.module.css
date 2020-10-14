@@ -1,0 +1,34 @@
+.Results {
+    max-width: 100%;
+    padding: 2% 1%;
+    background-color: #eeeded;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.Results .resultsHeading {
+    width: 100%;
+    margin: 1% 0% 2% 1%;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.Results .stores {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Results .map {
+    width: 38%;
+    margin: 1% 0% 1% 2%;
+}
+
+.Results .map img {
+    max-width: 100%;
+}

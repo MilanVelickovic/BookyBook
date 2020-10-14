@@ -1,0 +1,3 @@
+export const LANDING_PAGE = 'LANDING_PAGE';
+export const SEARCH_RESULTS = 'SEARCH_RESULTS';
+export const COMPANY_PROFILE = 'COMPANY_PROFILE';

@@ -1,15 +1,45 @@
 import React from 'react';
 
+import * as pages from '../../../Pages/pages';
+
 import Link from './Link/Link';
 
 import classes from './Links.module.css';
 
-const Links = () => (
-    <div className={classes.Links}>
-        <Link>Log in/Sign up</Link>
-        <Link>Cancel bookning</Link>
-        <Link type="highlight">For business</Link>
-    </div>
-);
+import calendarIcon from '../../../assets/Header/calendar.png';
+import heartIcon from '../../../assets/Header/heart.png';
+import userIcon from '../../../assets/Header/user.png';
+
+const Links = (props) => {
+
+    let links;
+
+    switch (props.linksForPage) {
+        case pages.LANDING_PAGE:
+            links = <div className={classes.Links}>
+                        <Link>Log in/Sign up</Link>
+                        <Link>Cancel bookning</Link>
+                        <Link type="highlight">For business</Link>
+                    </div>;
+            break;
+        case pages.SEARCH_RESULTS:
+            links = <div className={classes.Links}>
+                        <Link><img src={calendarIcon} alt="Calendar"/>&nbsp;Bookinger</Link>
+                        <Link><img src={heartIcon} alt="Heart"/>&nbsp;Favoritter</Link>
+                        <Link><img src={userIcon} alt="User"/>&nbsp;Christian Jebrail</Link>
+                    </div>;
+            break;
+        default:
+            links = <div className={classes.Links}>
+                        <Link>Log in/Sign up</Link>
+                        <Link>Cancel bookning</Link>
+                        <Link type="highlight">For business</Link>
+                    </div>;
+            break;    
+    }
+
+    return links;
+
+};
 
 export default Links;

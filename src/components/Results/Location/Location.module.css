@@ -1,0 +1,52 @@
+.Location {
+    width: 42%;
+    margin: 2%;
+    padding: 2%;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(158, 158, 158);
+}
+
+.Location > img {
+    padding: 8%;
+    margin: 4%;
+    background-color: #EAF0F6;
+    border-radius: 10px;
+}
+
+.Location .name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Location .stats {
+    width: 70%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Location p {
+    margin: 4% 0%;
+}
+
+.Location .stats .stars {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Location .location {
+    color: #516F90;
+    font-size: 12px;
+}
+
+/**/

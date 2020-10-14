@@ -5,7 +5,7 @@ import classes from './Search.module.css';
 import searchIcon from '../../../assets/HeroSection/Input/search.png';
 import locationIcon from '../../../assets/HeroSection/Input/location.png';
 
-const Search = () => (
+const Search = (props) => (
     <form className={classes.Search}>
         <div className={classes.part}>
             <img src={searchIcon} alt="Search Icon"/>

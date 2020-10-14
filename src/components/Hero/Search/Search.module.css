@@ -26,14 +26,16 @@
 .Search .part input {
     width: 100%;
     padding: 2% 0%;
+    color: #33475B;
     font-size: 1rem;
     border: 0px solid #FFF;
     outline: none;
 }
 
 .Search button {
+    width: 25%;
     margin: 0%;
-    padding: 3% 4%;
+    padding: 2% 4%;
     color: #FFF;
     background-color: #00A3AD;
     font-size: 1rem;
@@ -41,6 +43,16 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+/* - - - - - SEARCH FOR RESULTS - - - - - */
+/*.Search {
+    border: 1px solid #00A3AD;
+}
+
+.Search .part:nth-child(2) {
+    border-left: 1px solid #00A3AD;
+}*/
+/* - - - - - - - - - - - - - - - - - - - - */
 
 @media(max-width: 415px) {
     .Search {
