@@ -4,7 +4,7 @@ import Location from './Location/Location';
 
 import classes from './Results.module.css';
 
-import mapImage from '../../assets/Results/map.png';
+import mapImage from '../../assets/Results/map.svg';
 
 const Results = () => {
     

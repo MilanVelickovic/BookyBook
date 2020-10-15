@@ -16,21 +16,22 @@ const Header = (props) => {
         case pages.LANDING_PAGE:
             header = <header className={classes.Header}>
                         <Logo color="lightBlue"/>
-                        <Links linksForPage={pages.LANDING_PAGE}/>
-                        <MobileMenu/>
+                        <Links forPage={pages.LANDING_PAGE}/>
+                        <MobileMenu forPage={pages.LANDING_PAGE}/>
                     </header>;
             break;
         case pages.SEARCH_RESULTS:
             header = <header className={classes.Header}>
                         <Logo color="lightBlue"/>
-                        <Links linksForPage={pages.SEARCH_RESULTS}/>
+                        <Links forPage={pages.SEARCH_RESULTS}/>
+                        <MobileMenu forPage={pages.SEARCH_RESULTS}/>
                     </header>;  
             break;
         default:
             header = <header className={classes.Header}>
                         <Logo color="lightBlue"/>
-                        <Links linksForPage={pages.LANDING_PAGE}/>
-                        <MobileMenu/>
+                        <Links forPage={pages.LANDING_PAGE}/>
+                        <MobileMenu forPage={pages.LANDING_PAGE}/>
                     </header>;
             break;
     }

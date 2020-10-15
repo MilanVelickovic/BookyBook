@@ -14,6 +14,7 @@
     margin: 1% 0% 2% 1%;
     font-size: 1.4rem;
     font-weight: bold;
+    display: block;
 }
 
 .Results .stores {
@@ -27,8 +28,28 @@
 .Results .map {
     width: 38%;
     margin: 1% 0% 1% 2%;
+    display: block;
 }
 
 .Results .map img {
     max-width: 100%;
+}
+
+@media(max-width: 415px) {
+    .Results .resultsHeading {
+        display: none;
+    }
+
+    .Results .stores {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .Results .map {
+        display: none;
+    }
 }

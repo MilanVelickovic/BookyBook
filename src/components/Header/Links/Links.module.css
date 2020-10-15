@@ -1,8 +1,8 @@
 .Links {
-    width: 40%;
+    width: 36%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;   
+    justify-content: space-between;   
 }
 
 @media(max-width: 415px) {

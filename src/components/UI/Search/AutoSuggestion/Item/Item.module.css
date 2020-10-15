@@ -1,0 +1,18 @@
+.Item {
+    padding: 2% 0%;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.primary {
+    border-bottom: 1px solid #ccc;
+}
+
+.Item img {
+    padding-right: 3%;
+    width: 16.64px;
+    height: 17.1px;
+}

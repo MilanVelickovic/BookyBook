@@ -1,7 +1,9 @@
 import React from 'react';
 
-import lightBlueLogo from '../../../assets/Header/lightBlueLogo.png';
-import whiteLogo from '../../../assets/Header/whiteLogo.png';
+import { Link } from 'react-router-dom';
+
+import lightBlueLogo from '../../../assets/Header/lightBlueLogo.svg';
+import whiteLogo from '../../../assets/Header/whiteLogo.svg';
 
 const Logo = (props) => {
 
@@ -20,7 +22,9 @@ const Logo = (props) => {
     }
 
     return (
-        <img src={logo} alt="BookyBook"/>
+        <Link to="/">
+            <img src={logo} alt="BookyBook"/>
+        </Link>
     );
 
 };

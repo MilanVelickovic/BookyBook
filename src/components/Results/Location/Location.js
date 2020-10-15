@@ -2,8 +2,9 @@ import React from 'react';
 
 import classes from './Location.module.css';
 
-import storeIcon from '../../../assets/Results/store.png';
+import storeIcon from '../../../assets/Results/store.svg';
 import starIcon from '../../../assets/Results/star.svg';
+import arrowIcon from '../../../assets/Results/arrow.svg';
 
 const Location = (props) => (
 
@@ -24,6 +25,7 @@ const Location = (props) => (
             </div>
             <p className={classes.location}>{props.location}</p>
         </div>
+        <img src={arrowIcon} alt="Arrow-right"/>
     </div>
 
 );

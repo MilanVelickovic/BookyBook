@@ -7,3 +7,12 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+
+@media(max-width: 415px) {
+    /*Other attributes are being pulled from Header.module.css*/
+    .SearchHolder {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0% 2% 2% 2%;
+    }
+}
