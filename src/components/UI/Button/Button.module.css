@@ -1,0 +1,21 @@
+.Button {
+    padding: 2% 6%;
+    color: #FFF;
+    font-size: 1rem;
+    background-color: #00A3AD;
+    border: 0px solid #FFF;
+    border-radius: 10px;
+}
+
+.largeButton {
+    padding: 4% 6%;
+}
+
+@media(max-width: 415px) {
+    .buttonStyleForLocationServices {
+        width: 100%;
+        padding: 3% 0%;
+        font-weight: bold;
+        border-radius: 6px;
+    }
+}

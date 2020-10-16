@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { withRouter } from 'react-router-dom';
+import Aux from '../../../../hoc/Aux';
+
 import classes from './Button.module.css';
 
 import filterIcon from '../../../../assets/Search/Buttons/filter.svg';
@@ -7,28 +10,32 @@ import itemsIcon from '../../../../assets/Search/Buttons/items.svg';
 
 const Button = (props) => {
 
-    let button;
+    let content;
 
     switch (props.buttonType) {
-        case "Filter":
-            button = <button className={classes.Button}>
+        case "filter":
+            content = <Aux>
                         <img src={filterIcon} alt="Filter"/>&nbsp;Filter
-                    </button>;
+                      </Aux>;
             break;
-        case "Items":
-            button = <button className={classes.Button}>
+        case "items":
+            content = <Aux>
                         <img src={itemsIcon} alt="Items"/>&nbsp;Items
-                    </button>;
+                      </Aux>;
             break;
         default:
-            button = <button className={classes.Button}>
+            content = <Aux>
                         <img src={filterIcon} alt="Filter"/>&nbsp;Filter
-                    </button>;
+                      </Aux>;
             break;
     }
 
-    return button;
+    return (
+        <button onClick={() => props.history.push(props.match.path + `/${props.buttonType}`)} className={classes.Button}>
+            {content}
+        </button>
+    );
 
 };
 
-export default Button;
+export default withRouter(Button);

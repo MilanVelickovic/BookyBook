@@ -10,30 +10,35 @@ const Results = () => {
     
     let stores = [
         {
+            id: 1,
             name: "Sandbergs Frisör",
             rate: 4.8,
             votes: 53,
             location: "Hornsgatan 146B117 28 Stockholm"
         },
         {
+            id: 2,
             name: "Sandbergs Frisör",
             rate: 4.8,
             votes: 53,
             location: "Hornsgatan 146B117 28 Stockholm"
         },
         {
+            id: 3,
             name: "Sandbergs Frisör",
             rate: 4.8,
             votes: 53,
             location: "Hornsgatan 146B117 28 Stockholm"
         },
         {
+            id: 4,
             name: "Sandbergs Frisör",
             rate: 4.8,
             votes: 53,
             location: "Hornsgatan 146B117 28 Stockholm"
         },
         {
+            id: 5,
             name: "Sandbergs Frisör",
             rate: 4.8,
             votes: 53,
@@ -47,6 +52,7 @@ const Results = () => {
             <div className={classes.stores}>
                 {stores.map(store => {
                     return <Location 
+                                key={store.id}
                                 name={store.name}
                                 rate={store.rate}
                                 votes={store.votes}

@@ -1,5 +1,5 @@
 .Search {
-    width: 60%;
+    width: 62%;
     padding-left: 1%;
     background-color: #FFF; 
     border-radius: 10px;
@@ -57,6 +57,11 @@
 
 .extendedPart {
     border-left: 1px solid #00A3AD;
+    display: block;
+}
+
+.cross {
+    display: none;
 }
 
 @media(max-width: 415px) {
@@ -67,7 +72,7 @@
         justify-content: center;
     }
     .Search .part {
-        border: 1px solid #ccc;
+        border: 1px solid #00A3AD;
         border-radius: 5px;
         margin: 1.5% 0%;
     }
@@ -79,5 +84,13 @@
 
     .extendedSearch, .extendedPart {
         border: 0px;
+    }
+
+    .Search .extendedPart {
+        display: none;
+    }
+
+    .cross {
+        display: block;
     }
 }

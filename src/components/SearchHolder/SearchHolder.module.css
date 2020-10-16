@@ -1,7 +1,7 @@
 .SearchHolder {
     max-width: 100%;
     margin: 0;
-    padding: 0% 2%;
+    padding: 0% 4%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

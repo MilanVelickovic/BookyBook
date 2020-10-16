@@ -4,9 +4,10 @@
     color: #516F90;
     background-color: #FFF;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgb(151, 151, 151);
+    box-shadow: 0px 0px 8px rgb(196, 196, 196);
     position: absolute;
     top: 120%;
+    z-index: 100;
 }
 
 .AutoSuggestion ul {

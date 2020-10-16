@@ -8,6 +8,7 @@ import classes from './Search.module.css';
 
 import searchIcon from '../../../assets/Search/search.svg';
 import locationIcon from '../../../assets/Search/location.svg';
+import crossIcon from '../../../assets/Search/cross.svg';
 
 const Search = (props) => {
 
@@ -26,6 +27,7 @@ const Search = (props) => {
             <div className={classes.part}>
                 <img src={searchIcon} alt="Search Icon"/>
                 <input type="text" placeholder="Write service, performer or company"/>
+                {props.forPage === pages.SEARCH_RESULTS ? <img src={crossIcon} className={classes.cross} alt="Cross Icon"/> : null}
             </div>    
             <div className={attachedClassesForPart.join(' ')}>
                 <img src={locationIcon} alt="Location Icon"/>

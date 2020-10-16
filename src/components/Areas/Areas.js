@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Aux from '../../hoc/Aux';
 
 import Area from './Area/Area';
@@ -18,34 +18,42 @@ const Areas = () => {
 
     let areas = [
         {
+            id: 1,
             image: hairdresser,
             description: "Hairdresser"
         },
         {
+            id: 2,
             image: nails,
             description: "Nails"
         },
         {
+            id: 3,
             image: massage,
             description: "Massage"
         },
         {
+            id: 4,
             image: makeUp,
             description: "Make-Up"
         },
         {
+            id: 5,
             image: lashes,
             description: "Lashes"
         },
         {
+            id: 6,
             image: skincare,
             description: "Skincare"
         },
         {
+            id: 7,
             image: exercise,
             description: "Exercise"
         },
         {
+            id: 8,
             image: hairRemoval,
             description: "Hair removal"
         }
@@ -56,7 +64,7 @@ const Areas = () => {
             <p className={classes.areasHeading}>Popular areas</p>
             <div className={classes.Areas}>
                 {areas.map(area => (
-                    <Area type="button" image={area.image} description={area.description}/>
+                    <Area type="button" key={area.id} image={area.image} description={area.description}/>
                 ))}
                 <Area type="moreButton" description="More..."/>
             </div>

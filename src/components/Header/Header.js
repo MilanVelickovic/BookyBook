@@ -21,6 +21,7 @@ const Header = (props) => {
                     </header>;
             break;
         case pages.SEARCH_RESULTS:
+        case pages.COMPANY_PROFILE:
             header = <header className={classes.Header}>
                         <Logo color="lightBlue"/>
                         <Links forPage={pages.SEARCH_RESULTS}/>

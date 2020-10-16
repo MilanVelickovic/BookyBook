@@ -10,7 +10,7 @@ import classes from './SearchHolder.module.css';
 const SearchHolder = () => (
     <div className={classes.SearchHolder}>
         <Search forPage={pages.SEARCH_RESULTS}/>
-        <Button buttonType="Filter"/>
+        <Button buttonType="filter"/>
     </div>
 );
 

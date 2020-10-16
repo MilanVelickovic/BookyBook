@@ -7,7 +7,6 @@ import Aux from '../hoc/Aux';
 import Header from '../components/Header/Header';
 import SearchHolder from '../components/SearchHolder/SearchHolder';
 import Results from '../components/Results/Results';
-import Footer from '../components/Footer/Footer';
 
 const SearchResults = () => (
     <Aux>

@@ -10,26 +10,11 @@
     color: #00A3AD;
 }
 
-.Description button {
-    padding: 2% 6%;
-    color: #FFF;
-    font-size: 1rem;
-    background-color: #00A3AD;
-    border: 0px solid #FFF;
-    border-radius: 10px;
-}
-
 @media(max-width: 415px) {
     .Description {
         width: 100%;
     }
     .Description h1{
         font-size: 1.6rem;
-    }
-    .Description button {
-        width: 100%;
-        padding: 3% 0%;
-        font-weight: bold;
-        border-radius: 6px;
     }
 }

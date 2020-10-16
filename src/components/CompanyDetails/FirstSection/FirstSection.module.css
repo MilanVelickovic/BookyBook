@@ -1,0 +1,52 @@
+.FirstSection {
+    width: 92%;
+    padding: 4% 6% 4% 3%;
+}
+
+.FirstSection p {
+    margin: 1.5% 0%;
+}
+
+.FirstSection .logotype {
+    height: 20vh;
+    background-color: #EAF0F6;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstSection .details .user {
+    margin-top: 4%;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FirstSection .details .stats {
+    width: 34%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FirstSection .details .stats p:last-child {
+    color: #516F90;
+}
+
+.FirstSection .details .stats .stars {
+    width: 34%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FirstSection .details .location {
+    color: #516F90;
+}
+
+/*EAF0F6, D8F3F4, 8860B1*/
