@@ -11,9 +11,6 @@
 }
 
 @media(max-width: 415px) {
-    .Header {
-        padding: 0% 5%;
-    }
     .burgerIcon {
         display: block;
     }
